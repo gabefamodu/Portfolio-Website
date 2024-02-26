@@ -1,0 +1,17 @@
+{
+    "rust-analyzer.cargo.features": "all",    
+    
+    "files.associations": {
+        "*.rs": "rust"
+    },
+    "tailwindCSS.includeLanguages": {
+        "rust": "html"
+    },
+    "tailwindCSS.experimental.classRegex": [
+        "C!\\[\"([^\\]]+)\"\\]"
+    ],
+    
+    "editor.quickSuggestions": {
+        "strings": "on"
+      }
+}
