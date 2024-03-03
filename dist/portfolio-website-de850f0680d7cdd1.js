@@ -683,7 +683,7 @@ imports.wbg.__wbindgen_memory = function() {
     const ret = wasm.memory;
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper6022 = function(arg0, arg1, arg2) {
+imports.wbg.__wbindgen_closure_wrapper6054 = function(arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 190, __wbg_adapter_20);
     return addHeapObject(ret);
 };
@@ -725,7 +725,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('portfolio-website-3cbbb59cbbaf4e3e_bg.wasm', import.meta.url);
+        input = new URL('portfolio-website-de850f0680d7cdd1_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

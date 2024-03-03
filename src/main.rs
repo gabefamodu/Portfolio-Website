@@ -1,4 +1,5 @@
-mod app;
+mod app; // I want to start writing code in another file. 
+mod components; // Use is I want to use code from another file in this file. 
 use app::App;
 use leptos::*;
  
