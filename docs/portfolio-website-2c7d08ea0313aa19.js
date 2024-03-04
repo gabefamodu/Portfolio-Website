@@ -683,8 +683,8 @@ imports.wbg.__wbindgen_memory = function() {
     const ret = wasm.memory;
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper6054 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 190, __wbg_adapter_20);
+imports.wbg.__wbindgen_closure_wrapper6035 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 187, __wbg_adapter_20);
     return addHeapObject(ret);
 };
 
@@ -725,7 +725,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('portfolio-website-bb0bfad49de1e969_bg.wasm', import.meta.url);
+        input = new URL('portfolio-website-2c7d08ea0313aa19_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

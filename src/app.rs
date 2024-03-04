@@ -10,7 +10,6 @@ pub fn App() -> impl IntoView {
     view! {
         <NavBar/>
         <main> 
-           <h1 class="text-3xl font-bold underline"> hey there </h1> 
         </main>}
  
 }
